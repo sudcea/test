@@ -23,10 +23,12 @@ public class MessageBean {
     private Message messageView;
     private String message;
     private String name;
+    private String movie;
     public MessageBean()
     {
         System.out.println("Hello World");
         System.out.println("Fast and Furious");
+        System.out.println("Disney monkey kingdom");
     }
     
     public Message getMessageView() {
@@ -51,6 +53,14 @@ public class MessageBean {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getMovie() {
+        return movie;
+    }
+
+    public void setMovie(String movie) {
+        this.movie = movie;
     }
     
     
