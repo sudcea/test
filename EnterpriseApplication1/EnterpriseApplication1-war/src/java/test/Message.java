@@ -20,6 +20,15 @@ public class Message {
     
     private String message="Hello World";
     private String name="Fast and Furious";
+    private String movie="Disney monkey kingdom";
+
+    public String getMovie() {
+        return movie;
+    }
+
+    public void setMovie(String movie) {
+        this.movie = movie;
+    }
 
     public String getName() {
         return name;
