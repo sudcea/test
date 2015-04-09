@@ -20,7 +20,7 @@ public class Message {
     
     private String message="Hello World";
     private String name="Fast and Furious";
-    private String movie="Disney monkey kingdom";
+    private String movie="Disney Monkey Kingdom";
 
     public String getMovie() {
         return movie;
